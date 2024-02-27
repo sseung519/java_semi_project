@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7f51f53-52e8-4e4e-9f30-e260615f5cd2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_semi_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/project/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/project/GoldCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/project/VIPCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/project/VIPCustomerOther.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/project/application/CustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semi01/project/DoubleRoomReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semi01/project/RoomReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semi01/project/SweetRoomReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semi01/project/TwinRoomReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semi01/project/application/RoomReservationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semi01/project/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/grade/BasicEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/grade/GradeEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/grade/MajorEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/school/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/school/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/school/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/school/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/semi01/project/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -94,7 +85,9 @@
       <workItem from="1708930203604" duration="2521000" />
       <workItem from="1708937308270" duration="3000" />
       <workItem from="1708937342673" duration="2781000" />
-      <workItem from="1708940139277" duration="1332000" />
+      <workItem from="1708940139277" duration="2128000" />
+      <workItem from="1708993201795" duration="789000" />
+      <workItem from="1709020197504" duration="5079000" />
     </task>
     <servers />
   </component>
