@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7f51f53-52e8-4e4e-9f30-e260615f5cd2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/grade/BasicEvaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/grade/GradeEvaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/grade/MajorEvaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/school/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/school/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/school/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/school/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/semi02/project/application/MusicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/semi02/project/music/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/semi02/project/music/MusicManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/semi02/project/music/PlayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/semi02/project/search/SearchMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/semi02/project/search/SimpleSearchMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/semi02/project/utils/Define.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/application/StudentInfoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/school/report/GenerateGradeReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentInfo/project/utils/Define.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/semi01/project/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studentInfo/project/school/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentInfo/project/school/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studentInfo/project/school/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentInfo/project/school/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studentInfo/project/school/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentInfo/project/school/Subject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sseung/Desktop/project/02.JAVA/java_semi_project/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,9 +62,26 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
     &quot;애플리케이션.CustomerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.RoomReservationApplication.executor&quot;: &quot;Run&quot;
+    &quot;애플리케이션.MusicApplication.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.RoomReservationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.StudentInfoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.StudentInfoMain.executor&quot;: &quot;Run&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StudentInfoMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="studentInfo.project.application.StudentInfoApplication" />
+      <module name="java_semi_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,7 +110,15 @@
       <workItem from="1708937342673" duration="2781000" />
       <workItem from="1708940139277" duration="2128000" />
       <workItem from="1708993201795" duration="789000" />
-      <workItem from="1709020197504" duration="5079000" />
+      <workItem from="1709020197504" duration="5939000" />
+      <workItem from="1709080534566" duration="9933000" />
+      <workItem from="1709096477290" duration="7699000" />
+      <workItem from="1709167066304" duration="24140000" />
+      <workItem from="1709512947659" duration="145000" />
+      <workItem from="1709716424493" duration="3131000" />
+      <workItem from="1709771778093" duration="2000" />
+      <workItem from="1709803562271" duration="650000" />
+      <workItem from="1709887593680" duration="8092000" />
     </task>
     <servers />
   </component>

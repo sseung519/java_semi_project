@@ -1,6 +1,7 @@
 package studentInfo.project.school;
 
 import studentInfo.project.school.Student;
+import studentInfo.project.utils.Define;
 
 import java.util.ArrayList;
 
@@ -13,7 +14,7 @@ public class Subject {
     public Subject(String subjectName, int subjectId){
         this.subjectName = subjectName;
         this.subjectId = subjectId;
-        //this.gradeType = gradeType;
+        this.gradeType = Define.AB_TYPE; //학점 평가 정책: 기본으로 일반과목 산출 방식 사용
     }
 
     //수강신청
