@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class MusicApplication {
-    private static MusicManager musicManager = MusicManager.getInstance(); //음악관리기 생성
+    private static MusicManager musicManager = MusicManager.getInstance(); //뮤직매니저 생성 싱글톤이끼 때문에 getInstance();
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -86,7 +86,7 @@ public class MusicApplication {
         scanner.nextLine();
         String keyword = scanner.nextLine();
 
-        if (!keyword.isEmpty()) {
+        if (!keyword.isEmpty()) { //키워드가 비어있지 않으면
             ArrayList<Music> foundMusicList = musicManager.searchMusic(keyword);
             if (!foundMusicList.isEmpty()) {
                 System.out.println("검색 결과:");
@@ -97,7 +97,7 @@ public class MusicApplication {
 
                 System.out.print("추가할 노래 번호를 입력하세요: ");
                 int index = scanner.nextInt();
-                if (index >= 1 && index <= foundMusicList.size()) {
+                if (1 <= index && index <= foundMusicList.size()) {
                     Music selectedMusic = foundMusicList.get(index - 1);
                     musicManager.addToPlaylist(selectedMusic);
                     System.out.println(selectedMusic.getTitle() + "이(가) 플레이리스트에 추가되었습니다.");
@@ -122,7 +122,7 @@ public class MusicApplication {
         if (!albums.isEmpty()) {
             System.out.println("검색된 앨범 목록:");
             for (Music music : albums) {
-                noJoongBokAlbums.add(music.getAlbum()); // 중복 앨범 제거
+                noJoongBokAlbums.add(music.getAlbum()); // 중복 앨범 제거 HashSet은 중복저장x
             }
 
             int index = 1;
@@ -132,7 +132,7 @@ public class MusicApplication {
 
             System.out.print("추가할 앨범 번호를 입력하세요: ");
             int albumIndex = scanner.nextInt();
-            if (albumIndex >= 1 && albumIndex <= noJoongBokAlbums.size()) {
+            if (1 <= albumIndex && albumIndex <= noJoongBokAlbums.size()) {
                 String selectedAlbumName = (String) noJoongBokAlbums.toArray()[albumIndex - 1];
                 ArrayList<Music> albumMusicList = musicManager.searchByAlbum(selectedAlbumName);
                 for (Music music : albumMusicList) {

@@ -48,22 +48,6 @@ public class MusicManager {
         playlist.add(music);
     }
 
-    public void showMusicList() {
-        System.out.println("---------- 노래 목록 ----------");
-        for (int i = 0; i < musicList.size(); i++) {
-            Music music = musicList.get(i);
-            System.out.println((i + 1) + ". " + music.getTitle() + " - " + music.getArtist() + " (" + music.getAlbum() + ")");
-        }
-        System.out.println("-------------------------------");
-    }
-
-    public Music getMusic(int index) {
-        if (index >= 1 && index <= musicList.size()) {
-            return musicList.get(index - 1);
-        }
-        return null;
-    }
-
     public void showPlaylist() {
         if (playlist.isEmpty()) {
             System.out.println("플레이리스트가 비어 있습니다.");

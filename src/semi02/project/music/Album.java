@@ -14,7 +14,9 @@ public class Album {
     private String artist;
     private ArrayList<Music> musics;
 
+    /*
     public Album(String title, String artist) {
+
         this.title = title;
         this.artist = artist;
         this.musics = new ArrayList<>();
@@ -35,5 +37,7 @@ public class Album {
     public String getArtist() {
         return artist;
     }
+
+     */
 }
 
